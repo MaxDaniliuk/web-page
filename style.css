@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .header img {
     width: 100px;
     height: auto;
@@ -47,14 +48,14 @@ ul {
 .body {
     flex: 1;
     display: flex;
-    align-items: center;
+    
     justify-content: flex-start;
     flex-direction: column;
     margin: 0;
 }
 
 .first-block, .second-block, 
-.third-block, .fourth-block {
+.third-block {
     display: flex;
     padding-left: 120px;
     padding-right: 120px;
@@ -160,25 +161,32 @@ ul {
     align-self: flex-end;
 }
 
+.fourth-block {
+    display: flex;
+    padding: 60px 120px;
+}
 
-
-
-/*
 .action-block {
     background-color: #3882F6;
     display: flex;
     color: white;
-    padding: 35px;
     align-items: center;
     flex: 1;
+    padding: 30px 60px;
+    justify-content: flex-start;
+}
+
+.final-text {
+    margin-right: auto;
+}
+
+.final-text p {
+    margin: 0;
+    line-height: 1.5;
 }
 
 .line-two {
     font-size: small;
-}
-
-.action-text p {
-    margin: 0;
 }
 
 .action-button button {
@@ -187,5 +195,3 @@ ul {
     border-radius: 4px;
     color: white;
 }
-
-*/
